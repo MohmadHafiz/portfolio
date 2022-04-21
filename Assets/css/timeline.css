@@ -1,7 +1,7 @@
 .timeline-container{
     width: 100%;
     height: 100%;
-    max-width: 500px;
+    max-width: 400px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -17,6 +17,8 @@
 
     position: relative;
     color: black;
+    margin-bottom: 10px;
+    margin-top: 5px;
 }
 
 .timeline-container .timeline-tracking-box{
@@ -26,17 +28,19 @@
     align-items: center;
     margin-right: 10px;
     padding-top: 5px;
+    overflow: hidden;
 }
 
 .timeline-tracking-box .tracking-mark{
     width: 10px;
-    height: 10px;
+    height: 30px;
     background-color: rgb(61, 238, 238);
     border-radius: 20px;
 }
 .timeline-tracking-box .tracking-line{
     margin-top: 5px;
-    min-height: 200px;
+    min-height: 190px;
+    max-height: 100%;
     width: 5px;
     height: 100%;
     background-color: rgb(96, 180, 180);
