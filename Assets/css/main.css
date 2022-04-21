@@ -183,6 +183,7 @@ section{
     width: 90%;
     min-height: 60px;
     border-radius: 20px;
+    margin-bottom: 15px;
 }
 
 .ability h5{
